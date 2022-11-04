@@ -1,0 +1,13 @@
+#mainWrap{
+    max-width: 50%;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    padding:  20px;
+    color: #FFF;
+   background:#4267B2;
+  }
+  #title{
+  	text-align: center;
+
+  }
