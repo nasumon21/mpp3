@@ -10,8 +10,31 @@
      
 </head>
 <body>
-	<div id="mainWrap">
-	   <h1>Hello World</h1>
+    <div id="mainWrap">
+    <div id="header">
+        <div id="header-img"><img src="logo.jpg"  width="80px" height="80px" /></div>
+        <div id="nav-bar"> 
+            <a class="nav-link" href="index.html">Home </a> 
+            <a class="nav-link" href="#">About Us </a>
+            <a class="nav-link" href="#">Contact Us </a>
+        </div>
+    </div>
+
+    <br/>
+    <div id="main_container">
+    <p id="video_content">
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" allowfullscreen="" height="315" frameborder="0"></iframe>
+    </p>
+    <p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="get" enctype="multipart/form-data">
+          <label for="useremail" id="email-label">Enter Your Email ID</label>
+            <input type="text" class="form-control" id="number-label " name="email" placeholder="Enter your Email Address" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" required><br><br/>  
+             <input class="form-control"  type="submit" value="Submit">
+        </form>
+
+    </p>
+	 </div>
+	   
   </div>
 </body>
 </html>
